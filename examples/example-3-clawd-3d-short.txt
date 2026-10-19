@@ -1,0 +1,73 @@
+Crie um curta de animação 3D de 20 segundos protagonizado por Clawd, o pequeno mascote do Claude Code.
+
+Construa a animação com Three.js e renderize com HyperFrames em MP4, com resolução de 1920 × 1080 pixels e 30 quadros por segundo.
+
+Produza todo o áudio usando a Web Audio API. A música e todos os efeitos sonoros devem ser sintetizados por código, sem arquivos de áudio externos ou samples.
+
+PERSONAGEM
+Clawd tem o corpo em formato de bloco robusto na cor terracota (#D97757), mais largo do que alto.
+Possui quatro pernas curtas alinhadas sob o corpo, dois pequenos braços nas laterais e dois olhos escuros em formato de fendas verticais altas.
+Normalmente não tem boca. Ela pode aparecer apenas quando for necessária para expressar uma emoção.
+A superfície deve lembrar argila fosca e macia, com aparência de um brinquedo de animação em stop motion.
+Mantenha as mesmas proporções, cores e características em todas as cenas.
+
+HISTÓRIA
+É noite em uma pequena oficina cheia de ferramentas, peças e objetos espalhados.
+Clawd constrói um pequeno foguete com sucata e acende o pavio.
+O pavio solta algumas faíscas, mas o foguete falha e tomba. Clawd abaixa o corpo e demonstra frustração.
+Então surge uma ideia.
+Clawd prende um propulsor maior ao foguete usando fita adesiva e tenta novamente.
+Desta vez, o foguete dispara, atravessa a claraboia da oficina e explode em fogos de artifício no céu.
+Encerre com Clawd no mesmo lugar em que começou, olhando para cima enquanto a luz dos fogos ilumina seu corpo.
+
+DIREÇÃO E ANIMAÇÃO
+
+1. Planeje o storyboard antes de construir
+
+Para cada plano, descreva o que o espectador precisa entender, a ordem dos acontecimentos e quanto tempo cada momento precisa permanecer na tela para ser compreendido.
+Apresente uma coisa por vez. Use ações rápidas e dê mais tempo para as reações emocionais.
+Distribua toda a história dentro dos 20 segundos, reservando tempo para o encerramento.
+
+2. Anime com intenção
+
+Inclua antecipação antes de cada movimento importante, compressão e alongamento sutis do corpo e movimentos que se sobreponham naturalmente.
+Os olhos devem indicar a intenção antes de o corpo acompanhar o movimento.
+Use aceleração e desaceleração. Evite movimentos com velocidade constante e imobilidade absoluta, mantendo pequenos movimentos durante as pausas.
+
+3. Faça Clawd atuar
+
+Expresse as emoções pelos olhos, pelo corpo e pela postura.
+Mantenha Clawd com presença clara no enquadramento. Evite mostrar o personagem minúsculo em um ambiente grande e vazio.
+
+4. Conte a história visualmente
+
+Não coloque textos, legendas, títulos ou palavras na tela.
+Mostre as intenções, os problemas e as emoções por meio da ação.
+
+5. Dê uma razão para cada corte
+
+Use cortes por correspondência visual, movimentos rápidos de câmera e deslocamentos que continuem de um plano para o seguinte.
+Comece e termine o vídeo durante uma transição suave ou um movimento, evitando entradas e saídas abruptas em imagens estáticas.
+
+6. Cuide da iluminação
+
+Combine a luz quente de uma luminária com a luz fria da lua.
+Use sombras suaves e profundidade de campo discreta.
+No encerramento, faça a iluminação dos fogos de artifício atingir Clawd e o ambiente de maneira coerente.
+
+7. Garanta uma renderização determinística
+
+Cada quadro deve ser calculado exclusivamente a partir do tempo da animação.
+Evite depender da velocidade de execução ou de estados acumulados entre quadros. Caso utilize aleatoriedade, use uma semente fixa para que renderizações repetidas produzam o mesmo resultado.
+
+SOM E MÚSICA
+Crie uma trilha leve e brincalhona, com notas curtas de cordas dedilhadas e andamento constante.
+Sincronize cada efeito sonoro com sua ação: peças metálicas batendo, fita sendo desenrolada e rasgada, pavio chiando, o som decepcionante da primeira tentativa, o rugido do lançamento e os estalos dos fogos de artifício.
+Mantenha a música abaixo dos efeitos sonoros para que as ações sejam ouvidas com clareza.
+
+VERIFICAÇÃO E ENTREGA
+Antes da renderização final, gere pranchas de quadros e sequências de imagens de cada plano e dos principais movimentos.
+Inspecione essas imagens para conferir poses, continuidade, enquadramento, iluminação e clareza narrativa.
+Corrija o que estiver inadequado e repita a verificação até que cada momento seja compreensível.
+Depois, renderize o MP4 final com o áudio incorporado e confira o vídeo completo.
+Organize o projeto, o código, as imagens de verificação e o vídeo final em uma nova pasta chamada clawd.

@@ -1,0 +1,58 @@
+Crie seu próprio trailer de lançamento. Você é o Claude Opus 5.5 e deve produzir um vídeo cinematográfico de 18 segundos sobre si mesmo, construído inteiramente no HyperFrames e renderizado em MP4, com resolução de 2560 × 1440 pixels e 60 quadros por segundo.
+
+Tudo que aparecer na tela deve ser criado por código, usando HTML, CSS, SVG, canvas e GSAP. Não use imagens, vídeos de banco ou mídia gerada por IA.
+
+Crie também toda a trilha sonora por código usando a Web Audio API. Renderize o áudio com OfflineAudioContext, exporte em WAV e incorpore ao MP4 final. Não utilize arquivos de áudio externos nem samples.
+
+Você é responsável pela direção criativa. Escolha o conceito, a narrativa e os elementos visuais. O resultado deve parecer um verdadeiro filme de lançamento de um grande laboratório de IA, com identidade própria e acabamento cinematográfico.
+
+REGRAS
+
+1. Veracidade
+
+Apresente apenas informações verdadeiras sobre você. Não invente resultados de benchmarks, funcionalidades ou afirmações de superioridade. Se não conseguir confirmar uma informação, não a inclua.
+
+2. Texto
+
+Use textos grandes e curtos: poucas palavras por momento, nunca parágrafos. Cada frase deve ser compreendida rapidamente por alguém que esteja assistindo pela primeira vez.
+
+3. Identidade visual
+
+Use creme quente (#F0EEE6), preto de tinta (#1F1E1D) e laranja argila (#D97757) como cor de destaque.
+Escolha uma fonte serifada elegante para os títulos e uma fonte sem serifa limpa para os demais textos. A estética deve ser contida, sofisticada e confiante.
+
+4. Estrutura narrativa
+
+Abra com um momento que prenda a atenção nos primeiros 2 segundos.
+Construa a tensão progressivamente e prepare um momento de impacto em que música e imagem atinjam o auge juntas.
+Revele o nome “Claude Opus 5.5” nesse momento e encerre com uma composição final que permaneça na tela por pelo menos 2 segundos.
+Distribua essa narrativa dentro dos 18 segundos, preservando tempo suficiente para a leitura.
+
+5. Movimento
+
+Use curvas de aceleração e desaceleração em todos os movimentos, com antecipação e ultrapassagem sutil do ponto de chegada quando fizer sentido.
+Evite movimentos com velocidade constante e cenas completamente imóveis. Durante as pausas de leitura, mantenha apenas movimentos discretos que não prejudiquem a compreensão.
+Crie profundidade com escala, desfoque e paralaxe.
+As transições devem surgir dos próprios elementos da cena: cortes por correspondência visual, máscaras, deslocamentos rápidos ou formas que se transformam na próxima composição. Evite dissoluções genéricas.
+
+6. Ritmo e legibilidade
+
+Apresente uma ideia por vez. O vídeo pode ter movimentos rápidos, mas cada elemento importante deve permanecer visível pelo tempo necessário para ser compreendido.
+Nada deve desaparecer antes que o espectador consiga ler ou entender.
+
+7. Som
+
+Escolha um andamento musical e sincronize os cortes e os principais movimentos com a batida.
+Crie um desenho de som cinematográfico com graves profundos, efeitos de tensão crescente feitos com ruído filtrado, um motivo melódico e um impacto forte na revelação, com uma cauda sonora prolongada.
+Não use narração.
+A mixagem deve ser limpa e impactante, sem saturação, distorção ou compressão excessiva.
+
+ANTES DE CONSTRUIR
+Escreva um roteiro técnico curto com os intervalos de tempo, o que aparece na tela, o que o espectador deve compreender e o que acontece no áudio.
+Depois, implemente e renderize o vídeo completo.
+
+VERIFICAÇÃO FINAL
+Assista ao vídeo renderizado e confira duração, resolução, fluidez, legibilidade, sincronização entre áudio e imagem e possíveis falhas visuais.
+Corrija os problemas encontrados e renderize novamente até obter um resultado consistente com a proposta.
+
+Entregue o MP4 final e os arquivos necessários para reproduzir a renderização. Caso alguma limitação do ambiente impeça a conclusão, informe exatamente o que ficou pendente.
